@@ -132,7 +132,6 @@
 
   .pos-card { background: var(--bg3); border: 1px solid var(--border); border-radius: 5px; padding: 8px 10px; margin-bottom: 6px; cursor: pointer; transition: border-color .12s; }
   .pos-card:hover { border-color: var(--border2); }
-  .pos-card.overload { border-color: rgba(239,68,68,.35); }
   .pos-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px; }
   .pos-name   { font-size: 12px; font-weight: 600; }
   .pos-area   { font-size: 9px; color: var(--text3); text-transform: uppercase; letter-spacing: .05em; }
