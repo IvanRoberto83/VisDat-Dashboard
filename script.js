@@ -16,11 +16,11 @@ const incidents = [
   
   const posts = [
     {name:'Polsek Gedongtengen', area:'Kota Yogyakarta', personel:14, patroli:2, aktif:12, x:330, y:215, cap:86, units:['Reskrim','Lantas']},
-    {name:'Polsek Mlati',        area:'Sleman',          personel:12, patroli:1, aktif:10, x:300, y:140, cap:83, units:['Binmas','Sabhara']},
-    {name:'Polsek Sewon',        area:'Bantul',          personel:10, patroli:2, aktif:9,  x:330, y:245, cap:90, units:['Reskrim','Sabhara']},
-    {name:'Polsek Wates',        area:'Kulonprogo',      personel:9,  patroli:1, aktif:7,  x:125, y:245, cap:78, units:['Lantas','Binmas']},
-    {name:'Polsek Wonosari',     area:'Gunungkidul',     personel:11, patroli:1, aktif:9,  x:540, y:265, cap:82, units:['Reskrim','Lantas']},
-    {name:'Polsek Depok',        area:'Sleman',          personel:13, patroli:1, aktif:11, x:360, y:160, cap:85, units:['Reskrim','Sabhara','Densus']},
+    {name:'Polsek Mlati',        area:'Sleman',          personel:12, patroli:2, aktif:10, x:300, y:140, cap:83, units:['Binmas','Sabhara']},
+    {name:'Polsek Sewon',        area:'Bantul',          personel:10, patroli:1, aktif:9,  x:330, y:245, cap:90, units:['Reskrim','Sabhara']},
+    {name:'Polsek Wates',        area:'Kulonprogo',      personel:9,  patroli:1, aktif:8,  x:125, y:245, cap:78, units:['Lantas','Binmas']},
+    {name:'Polsek Wonosari',     area:'Gunungkidul',     personel:11, patroli:2, aktif:9,  x:540, y:265, cap:82, units:['Reskrim','Lantas']},
+    {name:'Polsek Depok',        area:'Sleman',          personel:13, patroli:1, aktif:12, x:360, y:160, cap:85, units:['Reskrim','Sabhara','Densus']},
   ];
   
   const patrols = [
@@ -223,7 +223,7 @@ const incidents = [
     new Chart(ctx, {
       type: 'line',
       data: {
-        labels: ['Sel','Rab','Kam','Jum','Sab','Min','Sen'],
+        labels: ['Sen','Sel','Rab','Kam','Jum','Sab','Min'],
         datasets: [{
           label: 'Insiden', data: [8, 11, 7, 14, 16, 12, 12],
           borderColor: '#3b82f6', backgroundColor: 'rgba(59,130,246,0.14)',
